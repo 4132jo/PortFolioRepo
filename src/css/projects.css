@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#projectsbox{
+    border:  1px solid black;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+#projects img{
+    width: 500px;
+    height: 250px;
+}
+#projects{
+    display: flex;
+    width: 78%;
+    margin: 10% 20%;
+    justify-content: space-between;
+}
+#about{
+    width: 55%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+    font-family: sans-serif;
+}
+#tech{
+   font-family: monospace;
+   font-size: 1.2rem;
+}
+
+
+@media  (min-width: 320px)and (max-width:400px)
+{
+
+    #projects img{ 
+        width: 40%;
+        height: 25%;
+    }
+    #projects{
+       
+        width: 90%;
+        margin: 5% 5%;
+    }
+    #about{
+        width: 55%;
+        padding: 2% 2%;
+        gap: 9%;
+        font-size: 0.5rem;
+    }
+    #tech{
+        font-family: monospace;
+        font-size: 0.55rem;
+     }
+  
+}
+
+@media  (min-width: 400px) and (max-width: 560px)
+{
+    #projects img{ 
+        width: 40%;
+        height: 25%;
+    }
+    #projects{
+       
+        width: 90%;
+        margin: 5% 5%;
+    }
+    #about{
+        width: 55%;
+        padding: 2% 2%;
+        gap: 9%;
+        font-size: 0.6rem;
+    }
+    #tech{
+        font-family: monospace;
+        font-size: 0.65rem;
+     }
+}
+
+@media  (min-width: 560px) and (max-width:1024px)
+{
+    #projects img{ 
+        width: 40%;
+        height: 25%;
+    }
+    #projects{
+       
+        width: 90%;
+        margin: 5% 5%;
+    }
+    #about{
+        width: 55%;
+        padding: 6% 2%;
+        gap: 20%;
+        font-size: 0.8rem;
+    }
+    #tech{
+        font-family: monospace;
+        font-size: 0.85rem;
+     }
+}
+
+@media  (min-width: 1025px) and (max-width: 1200px)
+{
+    #projects img{ 
+        width: 40%;
+        height: 25%;
+    }
+    #projects{
+       
+        width: 90%;
+        margin: 5% 5%;
+    }
+    #about{
+        width: 55%;
+        padding: 2% 2%;
+        gap: 9%;
+        font-size: 1rem;
+    }
+    #tech{
+        font-family: monospace;
+        font-size: 1.55rem;
+     }
+}
